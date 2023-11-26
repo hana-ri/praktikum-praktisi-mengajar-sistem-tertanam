@@ -16,7 +16,6 @@ portMUX_TYPE gpioIntMux = portMUX_INITIALIZER_UNLOCKED;
 Preferences storage;
 String input, ssid, password;
 
-
 void IRAM_ATTR gpioISR();
 bool endsWithChar(String str, char suffix);
 
